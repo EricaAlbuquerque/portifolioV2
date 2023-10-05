@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" media="screen" href="./css/style.css" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script  defer src="js/script_form.js"></script>
+    <script  defer src="js/script_modal.js"></script>
+    <script  defer src="./js/script_nav.js"></script>
+    <script src="https://kit.fontawesome.com/2b83e3e45a.js" crossorigin="anonymous"></script>
+    <title>Portifólio Erica</title>
+</head>
+<style>
+  body{
+    background-image:url("background_portif.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   
+</style>
+
+<body>
+    <header>
+        
+            <div class="container">
+              <nav class="nav">
+                  <ul class="nav-list">
+                      <li class="nav-item"><a href="#hero" class="nav-link">Inicio</a></li>
+                      <li class="nav-item><a href="#sobre"  class="nav-link">Sobre</a></li>
+                      <li class="nav-item><a href="#habilidades"  class="nav-link">Habilidades</a></li>
+                      <li class="nav-item><a href="#card-projects"  class="nav-link">Projetos</a></li>
+                      <li class="nav-item><a href="#contato"  class="nav-link">Contato</a></li>
+                  </ul>
+             
+                  <div class="hamburguer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                  </div>
+               </nav>
+             </div><!--container no nav-bar-->  
+    
+       </header>
+
+    <section class="hero" id="hero" >
+        <div class="container">
+          <div class="container-hero">
+            
+            <p class="titulo">Front-end </p>
+            <h2 class="subtitulo">UI Design</h2>
+            
+          </div>
+        </div>
+         
+     </section>
+    <main>
+        <section id="sobre">
+          <h2>Sobre</h2><br/>
+          <div class="container">
+            <div class="card-text">
+              <img src="img/foto perfil.png" alt="">
+            </div>
+          
+              <div class="card-text">
+                
+                  <h1>Érica P. Albuquerque</h1>
+                  <h3>12/06/1994 - 29 anos - Brasileira <br/>
+                  Gosto de organização no meu ambiente, tenho entusiasmo em 
+                  descobrir e me adaptar.<br/>Sou design UI com interesse em combinar o gosto por programação  com habilidades gráficas.<br/>
+                  Estou no progresso de formação  no curso superiorde  Desenvolvimento  de Aplicativos para <br/> Dispositivos Móveis 
+                  e tenho  familiaridade programas de modelagem 3D e execução básica <br/>  de relatorios.
+                </h3>
+               <br/>
+                <h4>Contato: +55 (12)98306-7458  |  erica.albq@gmail.com</h4><br/>
+                  <div class="box-rede">
+                    <a href="https://www.linkedin.com/in/erica-albuquerque-118760127/"><i class="fa-brands fa-linkedin fa-2x" style="color: #d41c38;"> </i></a>
+                    <a href="https://github.com/EricaAlbuquerque/"><i class="fa-brands fa-github fa-2x" style="color: #d41c38;"></i></a>
+                    <a href="https://www.behance.net/ericaalbuque"><i class="fa-brands fa-behance fa-2x" style="color: #d41c38;"></i></a>
+                </div> 
+             </div> 
+            
+          </div>
+        </section>
+
+        <section id="habilidades">
+          <h2> Habilidades Complementares</h2>
+          <div  class="container">
+            
+            <i class="fa-brands fa-html5 fa-6x" style= "color: #D41c38;"></i>
+            <i class="fa-brands fa-css3-alt fa-6x" style="color: #D41c38;"></i>
+            <i class="fa-brands fa-js fa-6x" style="color: #D41c38;"></i>
+          
+           <i class="fi fi-brands-photoshop fa-6x" style="color: #d41c38;"></i>
+            
+          </div>
+          <div class="container-icons">
+            <i class="fa-brands fa-3d-max fa-6x fa-brands fa-python fa-6x" style="color: #d41c38;"   style="color: #D41c38;"></i> 
+
+
+            <svg style="color: rgb(212, 30, 55);" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" >
+            <path d="M21 1v22a1 1 0 0 1-1 1h-3.5V7c0-.827-.673-1.5-1.5-1.5h-2V1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1zm-6 5H9a1 1 0 0 0-1 1v4.5h2c.827 0 1.5.673 1.5 1.5v11H16V7a1 1 0 0 0-1-1zm-5 6H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h7V13a1 1 0 0 0-1-1z" fill="#d41e37">
+            </path></svg>
+
+          </div>
+        </section>
+
+
+
+        <section id ="card-projects">
+          <br/><h2>Projetos</h2><br/>
+
+            <button class="btn" id="btn1"> 
+               <i class="fa-solid fa-laptop-code fa-5x" style="color: #fafafa;"></i> 
+            </button>
+
+            <button class="btn" id="btn2" data-target="modal-container2"> 
+              <i class="fa-solid fa-object-group fa-5x" style="color: #fafafa;"></i>
+            </button>
+
+            <button class="btn" id="btn3"> 
+              <i class="fa-solid fa-chart-pie  fa-5x" style="color: #fafafa;"></i>
+            </button>
+              
+            <!-- |-----------modal 1 -----------|-->
+          
+         
+          <dialog id="modal1">
+            <div id="modal">
+              <div class="modal-header">
+                <h2> Projetos Web</h2>
+                <button  id="close"><i class="fa-solid fa-rectangle-xmark fa-2x" style="color: #d41c38;" onclick="fechar()"></i></button>
+               </div>
+
+              <div class="modal-body">
+                  <div class="container1 link-info" id="container1">
+                    <img src="./img/web1.png" ><p>LANDINNG PAGE EVENTO ESPORTIVO <br/><br/>Website landing page de um evento de Mountain Bike utilizando Bootstrap v5.
+                      <a  href="https://ericaalbuquerque.github.io/eventoMB/" target="_blank">Visitar o site</a> </p>
+                  
+                      <img src="./img/web2.png" > <p>NETFLIX CLONE <br/><br/> Website com imitação do streaming Netflix utilizando Bootstrap v5,modais e corrossel.
+                      <a href="https://ericaalbuquerque.github.io/SiteNetflixClone/" target="_blank">Visitar o site</a> </p>
+                   </div> 
+              </div>
+          </div>
+        </dialog>
+
+                
+        <!-- |-----------modal 2 -----------|-->
+        
+          <dialog id="modal2"> 
+          <div id="modal">
+              <div class="modal-header">
+                
+                <h2> Projetos UI Design</h2>
+                <button  id="close2"><i class="fa-solid fa-rectangle-xmark fa-2x" style="color: #d41c38;" onclick="fechar()"></i></button>
+                
+              </div>
+
+              <div class="modal-body">
+                  <div class="container1" id="container1">
+                    <img src="./img/design 1.png" ><p>  APP DELIVERY<br/><br/>
+                      Design de interação de um aplicativo de comida japonesa prototipação no Quant-UX.
+                    <br/><a href="" target="_blank"> Veja mais </a> </p>
+                    <img src="./img/design 2.png" > <p>EVENTO DE GAMES<br/><br/>
+                      Layout de Website Evento de Games com campeonatos internos  e atrações.
+                      <br/><a href="https://www.behance.net/gallery/138294221/Evento-de-Games-Exposicao"target="_blank"> Veja mais </a> </p>
+                   </div> 
+                   
+               </div>
+
+          </div>
+        </dialog>
+
+       <!-- |-----------modal 3 -----------|-->
+          
+        <dialog id="modal3">
+          <div id="modal">
+              <div class="modal-header">
+                <h2> Relatórios</h2>
+                <button  id="close3"><i class="fa-solid fa-rectangle-xmark fa-2x" style="color: #d41c38;" onclick="fechar()"></i></button>
+              </div>
+
+           <div class="modal-body">
+            <div class="container1" id="container1">
+              <img src="./img/relatorio 1.png" ><p> RELEATÓRIO INDICADORES AGRO<br/><br/>
+                Indicadores agropecuários no Brasil  nos anos 2020 e 2021 realizado no Power BI.
+              <br/><a href="https://app.powerbi.com/view?r=eyJrIjoiNzNjY2NhZWMtYThjMS00NDRhLWJmNGMtZWE1OGM0YjA5YWE1IiwidCI6ImVlYzAzNmJhLWUyNDQtNGUxNi1hY2ZiLTgwY2U3OWQ0ZDkzZiJ9"> Visualizar Relatório </a> </p>
+              <img src="./img/Relatorio2.png" > <p>RELATÓRIO EMISSÕES DE Co2<br/><br/>
+                Emissoões de  do gás Co2  por modais de transporte entre 2015 e 2021.
+                <br/><a href="https://app.powerbi.com/view?r=eyJrIjoiMDFhYjc4YWUtY2MwZi00NzA3LThkZTctNmZkZjgyYTQ2NjU2IiwidCI6ImVlYzAzNmJhLWUyNDQtNGUxNi1hY2ZiLTgwY2U3OWQ0ZDkzZiJ9&disablecdnExpiration=1696287958" target="_blank"> Visualizar Relatório </a> </p>
+             </div> 
+            </div>
+          </div> 
+        </dialog>
+
+      </section>
+
+
+   
+        <section id="contato">
+          <h2>Contato</h2>
+            <div class="content-box">
+            <div class="card-form">    
+             <form id="form" action="https://formsubmit.co/erica.albq12@gmail.com" method="POST">
+              <input type="hidden" name="_next" value="https://ericaalbuquerque.github.io/portifolioV2/thanks.html">
+
+                           
+                <label for="name">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required=""><br>
+                
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" required=""><br>
+                
+               
+                <label>Mensagem</label>
+                <textarea name="message" placeholder="Digite sua mensagem" id="mensagem" required="">                            </textarea>
+           
+                <button class="btn-submit" type="submit" data-button="">Enviar</button>
+              
+            </form>
+          </div> 
+         </div>
+        </section>
+
+    </main>
+  <footer>
+      <div class="container-footer">
+        <p>© 2023 Copyright: Erica P. Albuquerque</p>
+      </div>
+</footer>
+       
+    
+ </body>
+</html>
